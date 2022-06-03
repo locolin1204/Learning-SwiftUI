@@ -6,7 +6,7 @@ I followed the [official SwiftUI Tutorial](https://developer.apple.com/tutorials
 
 # Chapter 1 SwiftUI Essentials
 
-## Landmark Application
+### Landmark Application
 A landmark application was made throughout the tutorial.
 
 * Creating and Combining Views
