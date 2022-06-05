@@ -21,6 +21,12 @@ A landmark application was made throughout the tutorial.
 
 * Animating Views and Transitions
 
+## Chapter 3 App Design and Layout
+
+* Composing Complex Interfaces
+
+* Working with UI Controls
+
 
 
 
