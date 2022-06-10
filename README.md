@@ -7,20 +7,20 @@ I followed the [official SwiftUI Tutorial](https://developer.apple.com/tutorials
 ### Landmark Application
 A application about landmark was made throughout the tutorial.
 
-<img src="./readme-resources/app-homescreen.png" width="150"/>
+<img src="./readme-resources/app-homescreen.png" width="250"/>
 
 
 ### Different Tabs
-<img src="./readme-resources/tabs.gif" width="150"/>
+<img src="./readme-resources/tabs.gif" width="250"/>
 
 ### Editing User's Profile
-<img src="./readme-resources/edit-profile.gif" width="150"/>
+<img src="./readme-resources/edit-profile.gif" width="250"/>
 
 ### Adding Favorite Landmarks
-<img src="./readme-resources/favorites.gif" width="150"/>
+<img src="./readme-resources/favorites.gif" width="250"/>
 
 ### Map Feature
-<img src="./readme-resources/map.gif" width="150"/>
+<img src="./readme-resources/map.gif" width="250"/>
 
 ## Chapter 1 SwiftUI Essentials
 
