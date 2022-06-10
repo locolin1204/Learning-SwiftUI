@@ -43,6 +43,11 @@
 		AEC932F928539FDD0078FE28 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC932F828539FDD0078FE28 /* FeatureCard.swift */; };
 		AEC932FB2853A01A0078FE28 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC932FA2853A01A0078FE28 /* PageView.swift */; };
 		AEC932FD2853A1610078FE28 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC932FC2853A1610078FE28 /* PageControl.swift */; };
+		AEC933002853A7D40078FE28 /* app-homescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC932FF2853A7D40078FE28 /* app-homescreen.png */; };
+		AEC933052853AA390078FE28 /* favorites.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC933012853AA370078FE28 /* favorites.gif */; };
+		AEC933062853AA390078FE28 /* map.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC933022853AA380078FE28 /* map.gif */; };
+		AEC933072853AA390078FE28 /* tabs.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC933032853AA380078FE28 /* tabs.gif */; };
+		AEC933082853AA390078FE28 /* edit-profile.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC933042853AA390078FE28 /* edit-profile.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +89,11 @@
 		AEC932F828539FDD0078FE28 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		AEC932FA2853A01A0078FE28 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		AEC932FC2853A1610078FE28 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		AEC932FF2853A7D40078FE28 /* app-homescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-homescreen.png"; sourceTree = "<group>"; };
+		AEC933012853AA370078FE28 /* favorites.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = favorites.gif; sourceTree = "<group>"; };
+		AEC933022853AA380078FE28 /* map.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = map.gif; sourceTree = "<group>"; };
+		AEC933032853AA380078FE28 /* tabs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tabs.gif; sourceTree = "<group>"; };
+		AEC933042853AA390078FE28 /* edit-profile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "edit-profile.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				AEAE3037284A6AC40080B499 /* README.md */,
+				AEC932FE2853A2D20078FE28 /* readme-resources */,
 				AE36928E284894A900F2E608 /* Landmarks */,
 				AE36928D284894A900F2E608 /* Products */,
 			);
@@ -245,6 +256,18 @@
 			path = PageView;
 			sourceTree = "<group>";
 		};
+		AEC932FE2853A2D20078FE28 /* readme-resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEC933042853AA390078FE28 /* edit-profile.gif */,
+				AEC933012853AA370078FE28 /* favorites.gif */,
+				AEC933022853AA380078FE28 /* map.gif */,
+				AEC933032853AA380078FE28 /* tabs.gif */,
+				AEC932FF2853A7D40078FE28 /* app-homescreen.png */,
+			);
+			path = "readme-resources";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,10 +326,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC933062853AA390078FE28 /* map.gif in Resources */,
 				AEAE304A284BA26C0080B499 /* hikeData.json in Resources */,
 				AE369297284894AF00F2E608 /* Preview Assets.xcassets in Resources */,
+				AEC933002853A7D40078FE28 /* app-homescreen.png in Resources */,
 				AE369294284894AF00F2E608 /* Assets.xcassets in Resources */,
+				AEC933052853AA390078FE28 /* favorites.gif in Resources */,
+				AEC933072853AA390078FE28 /* tabs.gif in Resources */,
 				AEAE3025284A16730080B499 /* landmarkData.json in Resources */,
+				AEC933082853AA390078FE28 /* edit-profile.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

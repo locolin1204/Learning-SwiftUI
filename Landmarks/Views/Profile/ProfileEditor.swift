@@ -36,11 +36,10 @@ struct ProfileEditor: View {
                         Text(season.rawValue).tag(season)
                     }
                 }
-                
+                .pickerStyle(.segmented)
                 DatePicker(selection: $profile.goalDate, in: dataRange, displayedComponents: .date){
                     Text("Goal Date").bold()
                 }
-                .pickerStyle(.segmented)
             }
         }
     }
